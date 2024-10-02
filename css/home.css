@@ -1,0 +1,75 @@
+body{
+    background-image: url(/images/gradguy.png);
+}
+
+/* Header Section */
+
+.header{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    padding: 10px;
+    border: 6px ridge lightgray;
+    width: 30%;
+    animation: rainbowText 3s linear infinite alternate;
+}
+
+@keyframes rainbowText{
+    0% {color: #ff8b00}
+    10% {color: #e8ff00}
+    20% {color: #5dff00}
+    30% {color: #00ff2e}
+    40% {color: #00ffb9}
+    50% {color: #00b9ff}
+    60% {color: #002eff}
+    70% {color: #5d00ff}
+    80% {color: #e800ff}
+    90% {color: #ff008b}
+    100% {color: #ff0000}
+}
+
+/* Info Box Section */
+
+.infoBox{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    background-color: white;
+    padding: 10px;
+    border: 6px ridge lightgray;
+    width: 40%;    
+}
+
+/* Page Links */
+
+.categories{
+    position: relative;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.icons{
+    display: inline-block;
+    padding: 1rem;
+    vertical-align: middle;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: ridge lightgray 4px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: black;
+}
+
+/* Pixelated Images */
+
+.pixelated{
+    image-rendering: pixelated;
+}
