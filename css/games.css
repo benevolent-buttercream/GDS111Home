@@ -1,3 +1,63 @@
+@font-face {
+    font-family: 'Super-Mario-World';
+    src: url(/fonts/Super-Mario-World.ttf);
+}
+
 body{
     background-image: url(/images/bluewater.gif);
+}
+
+h1{
+    color: black;
+    font-family: 'Super-Mario-World';
+    font-size: 30px;
+    background-color: white;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    border: 4px solid black;
+    padding: 10px;
+}
+
+p{
+    font-family: 'Super-Mario-World';
+}
+
+.thumbnail{
+    padding-left: 4%;
+    padding-right: 5%;
+}
+
+img{
+    width: 302px;
+    height: 169px;
+    border-radius: 10px;
+    border: 4px solid black;
+}
+
+.inner{
+    position: relative;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.backdrop{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Copyright */
+
+#copyright{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1.5%;
+    font-family: 'Super-Mario-World';
+    font-size: 18px;
+    background-color: white;
+    border: 4px solid black;
+    padding: 10px;
+    width: 40%;   
 }
