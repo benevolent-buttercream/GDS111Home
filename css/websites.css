@@ -1,0 +1,44 @@
+body{
+    background-image: url(/images/Twinkling_Stars.gif);
+}
+
+.globe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.001%
+}
+
+/* Page Links */
+
+.categories{
+    position: relative;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.icons{
+    display: inline-block;
+    padding: 1rem;
+    vertical-align: middle;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-top: 20px;
+    color: white;
+}
+
+/* Copyright */
+
+#copyright{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1.5%;
+    font-size: 18px;
+    padding: 10px;
+    width: 20%;   
+    color: white;
+}

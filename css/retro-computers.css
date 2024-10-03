@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'W95FA';
+    src: url(/fonts/W95FA.otf);
+}
+
+body{
+    background-image: url(/images/DRKGRNLV.jfif);
+}
+
+h1{
+    text-align: center;
+    border: solid black 4px;
+    border-radius: 10px;
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'W95FA';
+}
+
+h2{
+    text-align: center;
+    border: solid black 4px;
+    border-radius: 10px;
+    background-color: white;
+    width: 45%;
+    margin: 0 auto;
+    font-family: 'W95FA';
+}
+
+p{
+    font-family: 'W95FA';
+}
+
+table{
+    border: solid black 1px; 
+    background-color: white; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+td{
+    border: solid black 1px; 
+    text-align: center;
+    font-family: 'W95FA';
+}
+
+/* Copyright */
+
+#copyright{
+    text-align: center;
+    border: solid black 4px;
+    border-radius: 10px;
+    background-color: white;
+    width: 20%;
+    margin: 0 auto;
+    font-family: 'W95FA';
+}
