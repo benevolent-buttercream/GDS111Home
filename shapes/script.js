@@ -7,6 +7,8 @@ ctx.fillRect(85, 302, 100, 100);
 ctx.strokeStyle = "black";
 ctx.lineWidth = "5";
 ctx.strokeRect(85, 302, 100, 100);
+ctx.fill();
+ctx.stroke();
 
 // Red Line
 ctx.strokeStyle = "rgb(255,0,0)";
@@ -14,6 +16,7 @@ ctx.beginPath();
 ctx.lineTo(85,683);
 ctx.lineTo(278,550);
 ctx.lineWidth = "5";
+ctx.fill();
 ctx.stroke();
 
 // Yellow Circle
