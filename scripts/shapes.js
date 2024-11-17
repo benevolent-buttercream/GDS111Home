@@ -3,7 +3,7 @@ var ctx = canvas.getContext("2d");
 
 // Yellow Square
 ctx.fillStyle = "yellow";
-ctx.fillRect(85, 302, 100, 100);
+ctx.fillRect(85,     302, 100, 100);
 ctx.strokeStyle = "black";
 ctx.lineWidth = "5";
 ctx.strokeRect(85, 302, 100, 100);
